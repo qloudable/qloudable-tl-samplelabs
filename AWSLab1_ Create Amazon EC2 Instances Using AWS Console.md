@@ -60,10 +60,14 @@ After completing this lab, you will be able to:
 
 3.	Use below credentials to login to AWS console.
 
+<p class="accessDetails-container">
+
      **Account ID:** {{Account ID}} <br>
      **IAM username:** {{username}} <br>
      **Password:** {{password}} <br>
      **Region:** {{region}} <br>
+     
+     </p>
 
 4.	Enter **Account ID** from the above information, then click on **Next**.
 
