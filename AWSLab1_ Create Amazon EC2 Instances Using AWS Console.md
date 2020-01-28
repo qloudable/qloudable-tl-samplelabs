@@ -724,3 +724,15 @@ EX: http://10.0.1.9:80
 4. If you see this page, it means that your Apache installation has been **successfully** done in the ubuntu instance.if you try to access the apache server outside the public subnet you can’t access.
 
 > **Result:** After completing this lab, you would be able to create a new VPC, create a Route table and associate it with your VPC, create an Internet Gateway and attached it to your VPC and create private & public Subnets. You are able to launch windows instance and ubuntu instance from AWS console.You can install apache in both the instances and able to access the apache server.
+
+Additional elements you can use in your labs:
+
+<p class="note-container">This paragraph is for note</p>
+
+<p class="accessDetails-container">This paragraph is for access details</p>
+
+<p class="ideatip-container">This paragraph is for idea</p>
+
+<p class="examTip-container">This paragraph is for examtip</p>
+
+<p class="funFact-container">This paragraph is for fun facte</p>
