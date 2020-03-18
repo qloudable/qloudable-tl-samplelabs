@@ -56,6 +56,21 @@ After completing this lab, you will be able to:
 
 1.Navigate to chrome on the right pane, you should see AWS console page.
 
+```bash            
+sudo fdisk 3 <<DEVICE_PATH>> -l 
+```
+```bash            
+sudo fdisk 4 /<DEVICE_PATH /> -l 
+```
+```bash            
+sudo fdisk 5 \<DEVICE_PATH \> -l 
+```
+
+```bash            
+sudo fdisk 6 {DEVICE_PATH} -l 
+```
+
+
 2.Go to top right corner of the AWS page in the browser, click on My Account and in the dropdown, select AWS Management console.
 
 3.Use below credentials to login to AWS console.
@@ -744,6 +759,4 @@ Additional elements you can use in your labs:
 
 testing bash elements
 
-```bash            
-sudo fdisk 3 <<DEVICE_PATH>> -l 
-```
+
