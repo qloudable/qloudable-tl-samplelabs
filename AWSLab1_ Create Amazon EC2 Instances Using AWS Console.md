@@ -54,11 +54,11 @@ After completing this lab, you will be able to:
 
 ### Task:1 Login to AWS Console
 
-1.	Navigate to chrome on the right pane, you should see AWS console page.
+1.Navigate to chrome on the right pane, you should see AWS console page.
 
-2.	Go to top right corner of the AWS page in the browser, click on My Account and in the dropdown, select AWS Management console.
+2.Go to top right corner of the AWS page in the browser, click on My Account and in the dropdown, select AWS Management console.
 
-3.	Use below credentials to login to AWS console.
+3.Use below credentials to login to AWS console.
 
 <p class="accessDetails-container">
     **Account ID:** {{Account ID}} <br>
@@ -70,19 +70,19 @@ After completing this lab, you will be able to:
  
   
 
-4.	Enter **Account ID** from the above information, then click on **Next**.
+4.Enter **Account ID** from the above information, then click on **Next**.
 
 ![alt text](https://qloudableassets.blob.core.windows.net/aws-fundamentals/EC2lab/EC2labimages/1.png?st=2019-11-19T04%3A52%3A15Z&se=2026-11-20T04%3A52%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=C8kBrieb%2BLFAxTamhN4SdVlAHfIkeekSorkrX3V%2BJkQ%3D)
 
-5.	Enter **IAM username** and **Password** from the above information and click on **Sign In**
+5.Enter **IAM username** and **Password** from the above information and click on **Sign In**
 
 ![alt text](https://qloudableassets.blob.core.windows.net/aws-fundamentals/EC2lab/EC2labimages/2.png?st=2019-11-19T04%3A52%3A35Z&se=2026-11-20T04%3A52%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=wU1kzF3bCpy1Vjzdf7SPKaLfTWAjc9pJak7dzLkog8M%3D)
  
-6.	Once you provide all that information correctly you will see the AWS-management console dashboard.
+6.Once you provide all that information correctly you will see the AWS-management console dashboard.
 
 ![alt text](https://qloudableassets.blob.core.windows.net/aws-fundamentals/EC2lab/EC2labimages/3.png?st=2019-11-19T04%3A52%3A59Z&se=2026-11-20T04%3A52%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=WVXGyPDsdg7mDLnyNT9XWeIePPzETvHRO6t8P9Zi%2Frg%3D)
  
-7.	In the navigation bar, on the top-right region dropdown, select below region.
+7.In the navigation bar, on the top-right region dropdown, select below region.
      
      * Region: {{region}}
 
@@ -741,3 +741,9 @@ Additional elements you can use in your labs:
 <p class="examTip-container">This paragraph is for examtip</p>
 
 <p class="funFact-container">This paragraph is for fun facte</p>
+
+testing bash elements
+
+```            
+sudo fdisk <DEVICE_PATH> -l 
+```
