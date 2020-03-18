@@ -56,18 +56,15 @@ After completing this lab, you will be able to:
 
 1.Navigate to chrome on the right pane, you should see AWS console page.
 
-```bash            
+
+```            
+sudo fdisk 7 <DEVICE_PATH> -l 
+```
+```           
 sudo fdisk 3 <<DEVICE_PATH>> -l 
 ```
-```bash            
+```bash          
 sudo fdisk 4 /<DEVICE_PATH /> -l 
-```
-```bash            
-sudo fdisk 5 \<DEVICE_PATH \> -l 
-```
-
-```bash            
-sudo fdisk 6 {DEVICE_PATH} -l 
 ```
 
 
@@ -760,19 +757,12 @@ Additional elements you can use in your labs:
 testing bash elements
 
 
-```bash            
+```            
+sudo fdisk 7 <DEVICE_PATH> -l 
+```
+```           
 sudo fdisk 3 <<DEVICE_PATH>> -l 
 ```
-```bash            
+```bash          
 sudo fdisk 4 /<DEVICE_PATH /> -l 
-```
-```bash            
-sudo fdisk 5 \<DEVICE_PATH \> -l 
-```
-
-```bash            
-sudo fdisk 6 {DEVICE_PATH} -l 
-```
-```bash            
-sudo fdisk 7 <DEVICE_PATH> -l 
 ```
