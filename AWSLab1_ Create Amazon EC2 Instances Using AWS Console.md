@@ -57,8 +57,8 @@ After completing this lab, you will be able to:
 1.  Navigate to chrome on the right pane, you should see AWS console page.
 
 
-```            
-sudo fdisk 7 <DEVICE_PATH> -l 
+```bash            
+sudo fdisk 8 <DEVICE_PATH> -l 
 ```
 ```           
 sudo fdisk 3 <<DEVICE_PATH>> -l 
