@@ -744,6 +744,6 @@ Additional elements you can use in your labs:
 
 testing bash elements
 
-```            
-sudo fdisk 2 <<DEVICE_PATH>> -l 
+```bash            
+sudo fdisk 3 <<DEVICE_PATH>> -l 
 ```
