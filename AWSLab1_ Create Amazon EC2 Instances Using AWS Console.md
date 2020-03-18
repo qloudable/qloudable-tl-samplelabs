@@ -760,3 +760,19 @@ Additional elements you can use in your labs:
 testing bash elements
 
 
+```bash            
+sudo fdisk 3 <<DEVICE_PATH>> -l 
+```
+```bash            
+sudo fdisk 4 /<DEVICE_PATH /> -l 
+```
+```bash            
+sudo fdisk 5 \<DEVICE_PATH \> -l 
+```
+
+```bash            
+sudo fdisk 6 {DEVICE_PATH} -l 
+```
+```bash            
+sudo fdisk 7 <DEVICE_PATH> -l 
+```
