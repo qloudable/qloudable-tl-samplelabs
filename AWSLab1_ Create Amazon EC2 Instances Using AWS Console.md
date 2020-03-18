@@ -54,7 +54,7 @@ After completing this lab, you will be able to:
 
 ### Task:1 Login to AWS Console
 
-1.Navigate to chrome on the right pane, you should see AWS console page.
+1.  Navigate to chrome on the right pane, you should see AWS console page.
 
 
 ```            
