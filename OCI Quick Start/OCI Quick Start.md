@@ -131,8 +131,7 @@ how easy it is to move additional storage with applicatons/tools installed betwe
 
 2.Enter command 
 
-```
-bash
+```bash
 ssh-keygen
 ```
 **HINT:** You can swap between OCI window, 
@@ -210,8 +209,7 @@ cat /C/Users/PhotonUser/.ssh/id_rsa.pub
 11.Enter **ls** and verify id_rsa file exists
 
 12.Enter command 
-```
-bash
+```bash
 ssh -i id_rsa opc@<PUBLIC_IP_OF_COMPUTE>
 ```
 
@@ -299,16 +297,14 @@ sudo systemctl start httpd
 **HINT:** The Name sdb is the block volume storage. This name could change for your specific attachment (i.e sdc)
 
 5.To format the block volume, Enter Command: 
-``` 
-bash
+``` bash
 sudo fdisk <DEVICE_PATH> -l 
 ```
 **For example sudo fdisk /dev/sdb -l**   
 Wait for formatting to complete
 
 6.Create a file system on the block volume, Enter Command: 
-```
-bash
+```bash
 sudo mkfs.ext4 -L datapartition <DEVICE_PATH> 
 ```         
 
@@ -323,8 +319,7 @@ sudo mkdir -p /mnt/www/html
 
 8.Mount the disk to the newly created directory,
 Enter command:
-```
-bash
+```bash
 sudo mount  /dev/<VOLUME_NAME>  /mnt/www/html
 ```
 
@@ -382,8 +377,7 @@ sudo systemctl restart httpd
 ```
 
 19.Launch a web browser and Enter compute Instance's public IP:
-```
-bash
+```bash
 http://<COMPUTE_INSTANCE_PUBLIC_IP>
 ```
 
@@ -398,8 +392,7 @@ http://<COMPUTE_INSTANCE_PUBLIC_IP>
 **In this section we will detach the block volume, Stop the compute instance, use its boot volume to launch a second compute instance and delete the second compute instance**
 
 1.In ssh session to the compute instance unmount the directory from block volume, Enter command:
-```
-bash
+```bash
 sudo umount /dev/<VOLUME_NAME> 
 ```
 2.In OCI console window, Click your compute instance name and in **Attached Block Volume** section  Click the action icon and **Click Detach**
@@ -452,8 +445,7 @@ sudo umount /dev/<VOLUME_NAME>
 9.Once the instance is in Running state, attach the block volume to this new instance using OCI Console.**Ensure to use Paravirtualized mode.**
 
 10.ssh to compute instance and mount the block volume as before, Enter Command:
-```
-bash
+```bash
 sudo mount  /dev/<VOLUME_NAME>  /mnt/www/html
 ```
 
@@ -485,7 +477,7 @@ sudo systemctl restart httpd
 
 <img src="https://raw.githubusercontent.com/oracle/learning-library/master/oci-library/qloudable/OCI_Quick_Start/img/RESERVEDIP_HOL0017.PNG" alt="image-alt-text">
 
-5. Repeat the step to delete second compute instance
+5.Repeat the step to delete second compute instance
 
 6.From OCI services menu Click **Block Volumes** under Block Storage
 
