@@ -754,15 +754,7 @@ Additional elements you can use in your labs:
 
 <p class="funFact-container">This paragraph is for fun facte</p>
 
-testing bash elements
+<iframe _ngcontent-c10="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/sZEtf7SaXIc?autoplay=1"></iframe>
 
 
-```            
-sudo fdisk 7 <DEVICE_PATH> -l 
-```
-```           
-sudo fdisk 3 <<DEVICE_PATH>> -l 
-```
-```bash          
-sudo fdisk 4 /<DEVICE_PATH /> -l 
-```
+
